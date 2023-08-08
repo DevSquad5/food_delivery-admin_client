@@ -1,7 +1,7 @@
-import React, {Fragment, useRef} from 'react';
-import {Link} from "react-router-dom";
-import {ErrorToast, IsEmail, IsEmpty} from "../../helper/FormHelper";
-import {LoginRequest} from "../../APIRequest/UsersAPIRequest";
+import React, { Fragment, useRef } from 'react';
+import { Link } from "react-router-dom";
+import { LoginRequest } from "../../APIRequest/UsersAPIRequest";
+import { ErrorToast, IsEmail, IsEmpty } from "../../helper/FormHelper";
 
 const  Login = () => {
 
@@ -40,8 +40,6 @@ const  Login = () => {
                                 <button onClick={SubmitLogin} className="btn btn-success w-100 animated ">Next</button>
                                 <div className="float-end mt-3">
                                     <span>
-                                        <Link className="text-center ms-3 h6" to="/Registration">Sign Up</Link>
-                                        <span className="ms-1">|</span>
                                         <Link className="text-center ms-3 h6" to="/SendOTP">Forget Password</Link>
                                     </span>
                                 </div>
