@@ -69,11 +69,7 @@ const MasterLayout = (props) => {
       icon: <BsPeople className="side-bar-item-icon" />,
       url: "/Customer",
       subMenu: [
-        {
-          title: "New Customer",
-          icon: <BsCircle size={16} className="side-bar-subitem-icon" />,
-          url: "/CustomerCreateUpdatePage",
-        },
+        
         {
           title: "Customer List",
           icon: <BsCircle size={16} className="side-bar-subitem-icon" />,
@@ -116,11 +112,7 @@ const MasterLayout = (props) => {
       icon: <MdFiberManualRecord className="side-bar-item-icon" />,
       url: "/Order",
       subMenu: [
-        {
-          title: "New Order",
-          icon: <BsCircle size={16} className="side-bar-subitem-icon" />,
-          url: "/OrderCreateUpdatePage",
-        },
+        
         {
           title: "Order List",
           icon: <BsCircle size={16} className="side-bar-subitem-icon" />,

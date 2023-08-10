@@ -25,7 +25,6 @@ const App = () => {
             <Fragment>
                 <BrowserRouter>
                     <Routes>
-
                         <Route exact path="/CustomerCreateUpdatePage" element={<CustomerCreateUpdatePage />}/>
                         <Route exact path="/CustomerListPage" element={<CustomerListPage />}/>
                         <Route exact path="/MenuItemTypeCreateUpdatePage" element={<MenuItemTypeCreateUpdatePage />}/>
@@ -37,7 +36,6 @@ const App = () => {
                         <Route exact path="/ReturnReportPage" element={<ReturnReportPage />}/>
                         <Route exact path="/SaleReportPage" element={<SaleReportPage />}/>
                         {/* <Route exact path="/MenuItemReportPage" element={<MenuItemReportPage />}/> */}
-
                         <Route exact path="/" element={<DashboardPage />}/>
                         <Route exact path="/Profile" element={<ProfilePage/>}/>
                         <Route path="*" element={<Page404/>}/>

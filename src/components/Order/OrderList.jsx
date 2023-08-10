@@ -116,41 +116,7 @@ const OrderList = () => {
                                                         <td className="text-uppercase text-xxm font-weight-bolder opacity-7 "style={headerStyle}>Action</td>
                                                     </tr>
                                                     </thead>
-                                                    <tbody>
-                                                        {/*   "_id": "64d287b0311be9de916275a1",
-                    "customerId": "64caba1ca3374e539dbcfca8",
-                    "addressId": "64d287b0311be9de9162759f",
-                    "orderType": "delivery",
-                    "paymentMethod": "cash_on_delivery",
-                    "discountAmount": 0,
-                    "orderAmount": 10,
-                    "status": "Pending",
-                    "orderNote": "Don't bell the ring more then once",
-                    "__v": 0,
-                    "info": [
-                        {
-                            "_id": "64caba1ca3374e539dbcfca8",
-                            "email": "tanim@gmail.com",
-                            "firstName": "tanim saha",
-                            "lastName": "khan",
-                            "phoneNo": "+8801915995772",
-                            "password": "$2b$10$kXWg81e8OSA3ZlLV7dIz5uvHHPVM5OuMLfokCegXnRoSFdtVuieme",
-                            "photo": "",
-                            "createdAt": "2023-08-02T20:18:36.282Z",
-                            "updatedAt": "2023-08-02T20:18:36.282Z"
-                        }
-                    ],
-                    "address": [
-                        {
-                            "_id": "64d287b0311be9de9162759f",
-                            "address": "Kutatoli, Kuril, Dhaka",
-                            "address_type": "Home Delivery",
-                            "floor": "2A",
-                            "house": "Ka-119/5",
-                            "lat": 111,
-                            "lng": 111,
-                            "road": "Kazi Bari Mosjid Road", */}
-                                                    {
+                                                    <tbody>                                                    {
                                                         DataList.map((item,i)=>
                                                             <tr>
                                                                 <td><p className="text-xs text-start">{i+1}</p></td>

@@ -101,7 +101,8 @@ export async function FillOrderFormRequest(ObjectID) {
 export async function DeleteOrderRequest(ObjectID) {
     try {
         store.dispatch(ShowLoader())
-        let URL = BaseURL+"/DeleteOrder/"+ObjectID;
+        let URL = BaseURL+"/deleteOrder/"+ObjectID;
+        debugger;
         const result = await axios.get(URL,AxiosHeader)
         store.dispatch(HideLoader())
         if (result.status === 200 && result.data['status'] === "associate") {
