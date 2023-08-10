@@ -7,6 +7,8 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import profileMiddle from "../../assets/images/profileMiddle.png";
+
 import { MdFiberManualRecord, RiDashboardLine } from "react-icons/all";
 import {
   BsCircle,
@@ -14,6 +16,7 @@ import {
   BsGraphUp,
   BsPeople
 } from "react-icons/bs";
+
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/dashboard.png";
 import { getUserDetails, removeSessions } from "../../helper/SessionHelper";
@@ -193,14 +196,14 @@ const MasterLayout = (props) => {
             <div className="user-dropdown">
               <img
                 className="icon-nav-img icon-nav"
-                src={getUserDetails()["photo"]}
+                src={profileMiddle}
                 alt=""
               />
               <div className="user-dropdown-content ">
                 <div className="mt-4 text-center">
                   <img
                     className="icon-nav-img"
-                    src={getUserDetails()["photo"]}
+                    src={profileMiddle}
                     alt=""
                   />
                   <h6>
